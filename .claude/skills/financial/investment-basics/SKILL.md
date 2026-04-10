@@ -36,14 +36,17 @@ Walk through the recommended order of operations (adjust based on $ARGUMENTS):
 
 **401k Deep Dive**
 - **What it is:** Employer-sponsored retirement account where contributions are deducted directly from your paycheck before taxes (Traditional) or after taxes (Roth)
-- **Employer match:** The most important feature — if your employer matches 50% up to 6% of salary, contributing at least 6% is an instant 50% return. Never leave this on the table
+- **Employer match:** The most important feature — common formulas include 50% match up to 6% of salary, or 100% match up to 3%. Either way it's an instant guaranteed return — never leave it on the table
 - **Contribution limits (2025):**
   - Employee contribution: $23,500/year
-  - Catch-up contribution (age 50+): additional $7,500/year ($31,000 total)
+  - Catch-up contribution (age 50–59 and 64+): additional $7,500/year ($31,000 total)
+  - Catch-up contribution (ages 60–63, SECURE 2.0): additional $11,250/year ($34,750 total)
   - Total including employer contributions: $70,000/year
 - **Traditional vs. Roth 401k:**
   - Traditional: reduces taxable income now, pay taxes on withdrawal in retirement — best if you expect to be in a lower tax bracket later
   - Roth: no upfront tax break, but all growth and withdrawals are tax-free — best if you expect to be in a higher tax bracket later or are early in your career
+  - Note: unlike Roth IRA, **Roth 401k has no income limit** — anyone can contribute regardless of how much they earn
+- **Solo 401k (self-employed):** If you're self-employed, a Solo 401k lets you contribute as both employer and employee — the same $70,000 total limit applies, making it one of the most powerful savings vehicles for freelancers and business owners
 - **Vesting schedules:** Employer match may not be fully yours until you've worked there 2–6 years — check your plan's vesting cliff before leaving a job
 - **Investment options:** Most 401k plans offer a limited menu; prioritize low-cost index funds (look for expense ratios below 0.20%). If only high-fee funds are available, max the match then prioritize IRA
 - **Early withdrawal penalty:** Withdrawing before age 59½ triggers a 10% penalty plus income tax — avoid unless it's a true emergency
