@@ -38,8 +38,8 @@ For each restaurant:
 - Any dining experiences that are iconic or unique to this destination
 
 **Drinks & Nightlife**
-- Local alcoholic drinks to try (craft beer scene, local spirits, regional wines, etc.)
-- Non-alcoholic local drinks (juices, teas, coffees)
+- Local drinks to try (juices, teas, coffees, sodas, and other regional beverages)
+- Signature non-alcoholic drinks the destination is known for
 - Best neighborhoods or areas for bars and nightlife
 - Any drink-related cultural norms to know (e.g. drinking age, dry areas, tipping on drinks)
 
