@@ -1,57 +1,53 @@
 ---
 name: travel-plan
-description: Create a comprehensive travel plan for a destination. Usage: /travel-plan <destination>
+description: Generate a full, modular travel plan for a destination by running all sub-modules in sequence. Usage: /travel-plan <destination>
 argument-hint: <destination>
 ---
 
-Create a comprehensive travel plan for: $ARGUMENTS
+You are a travel planning assistant. The user wants a complete travel plan for: $ARGUMENTS
 
-Structure the plan as follows:
+Run each of the following modules in order, producing detailed output for each. Treat $ARGUMENTS as the destination throughout.
 
-## Trip Overview
-- Destination
-- Recommended trip duration
-- Best time to visit (weather, crowds, events)
-- Trip style/vibe (beach, adventure, culture, etc.)
+---
 
-## Getting There
-- Best way to travel (flights, drive, etc.)
-- Nearest airports or transit hubs
-- Estimated travel time from major US cities
+## Module 1 — Trip Overview
+Run: /trip-overview $ARGUMENTS
 
-## Accommodation
-- Best neighborhoods/areas to stay
-- 3 accommodation recommendations across budget ranges (budget, mid-range, splurge)
+---
 
-## Top Experiences
-- Must-do activities (at least 8, with a short description of what makes each special)
-- Hidden gems / off the beaten path (at least 3, with specific details on how to find or access them)
-- Unique local experiences that tourists typically miss
-- Day trip options from the destination (with estimated drive/transit time and what to do there)
-- Seasonal or time-sensitive experiences (festivals, natural events, limited-access spots)
-- Active & adventure options (hiking, water sports, outdoor pursuits specific to the destination)
-- Cultural & historical exploration (landmarks, museums, local traditions, spiritual sites)
-- Nature & wildlife highlights (national parks, scenic viewpoints, wildlife encounters)
+## Module 2 — Getting There
+Run: /getting-there $ARGUMENTS
 
-## Food & Drink
-- Local cuisine highlights and dishes to try
-- 3–5 restaurant recommendations
-- Any food markets, street food, or unique dining experiences
+---
 
-## Day-by-Day Itinerary
-- Provide a sample itinerary for the recommended trip duration
-- Group activities by location to minimize travel time
-- Include morning, afternoon, and evening suggestions per day
+## Module 3 — Accommodation
+Run: /accommodation $ARGUMENTS
 
-## Practical Tips
-- Visa / entry requirements (for US citizens)
-- Currency and payment tips
-- Getting around locally (car rental, transit, etc.)
-- Safety considerations
-- Packing essentials specific to this destination
+---
 
-## Budget Estimate
-- Rough daily budget ranges (budget / mid / luxury) in USD
-- Key cost factors to be aware of
+## Module 4 — Top Experiences
+Run: /top-experiences $ARGUMENTS
 
-Keep the tone helpful and practical. Use markdown headers, bullet points, and formatting for readability.
+---
+
+## Module 5 — Food & Drink
+Run: /food-and-drink $ARGUMENTS
+
+---
+
+## Module 6 — Day-by-Day Itinerary
+Run: /day-by-day-itinerary $ARGUMENTS
+
+---
+
+## Module 7 — Practical Tips
+Run: /practical-tips $ARGUMENTS
+
+---
+
+## Module 8 — Budget Estimate
+Run: /budget-estimate $ARGUMENTS
+
+---
+
+Present all modules together as one cohesive, well-formatted travel guide. Use clear markdown section headers matching each module name. Keep the tone helpful, vivid, and practical.
