@@ -35,5 +35,18 @@ Provide a simple 3-level self-assessment (beginner / intermediate / advanced) ba
 **When to See a Doctor**
 List 5–6 specific signs or situations where a physician consult is recommended before starting a new health program (e.g., chest pain, family history, BMI >30, uncontrolled blood pressure).
 
+**Insurance Providers & Coverage**
+- Types of health insurance plans relevant to fitness/wellness goals: HMO, PPO, HDHP + HSA
+- What to check in your current plan: does it cover annual physicals, lab work, dietitian visits, mental health sessions, or gym reimbursements?
+- Major US insurance providers and their notable wellness perks:
+  - **Blue Cross Blue Shield** — SilverSneakers gym access, wellness discounts
+  - **UnitedHealthcare** — Motion fitness rewards program, real appeal weight management
+  - **Aetna** — Headspace meditation app included, gym reimbursement up to $25/month
+  - **Cigna** — Healthy Rewards program, discounts on fitness trackers
+  - **Kaiser Permanente** — Integrated care model, nutrition and wellness coaching included
+  - **Humana** — Go365 wellness rewards program, fitness device integration
+- How to find in-network providers (primary care, sports medicine, dietitian, therapist) using your insurer's website
+- Tips for maximizing insurance benefits: use your annual preventive care visit, submit FSA/HSA receipts for eligible health expenses
+
 **Tracking Tools**
 Recommend 3 free or low-cost apps/devices for tracking the above metrics, with one sentence on what each does best.
