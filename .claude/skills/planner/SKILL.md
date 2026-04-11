@@ -17,7 +17,8 @@ Parse $ARGUMENTS to identify the domain and topic:
 - If the input mentions a **destination, city, country, trip, or travel** → run `/travel-plan <topic>`
 - If the input mentions **health, fitness, workout, nutrition, sleep, wellness, or a health goal** → run `/health-tracker <topic>`
 - If the input mentions **money, budget, savings, debt, investing, financial goal, or retirement** → run `/financial-planner <topic>`
-- If the domain is ambiguous, ask the user which of the three areas they want help with before proceeding.
+- If the input mentions **career, job, resume, promotion, networking, salary, skills, leadership, or professional goal** → run `/professional-growth <topic>`
+- If the domain is ambiguous, ask the user which of the four areas they want help with before proceeding.
 
 ---
 
@@ -37,6 +38,11 @@ Parse $ARGUMENTS to identify the domain and topic:
 **Trigger:** financial goal or money situation mentioned
 **Orchestrator:** `/financial-planner`
 **Sub-skills:** financial-snapshot, budget-planner, savings-goals, debt-tracker, investment-basics
+
+### Bucket 4 — Professional Growth
+**Trigger:** career, job, resume, promotion, networking, salary, skills, or leadership mentioned
+**Orchestrator:** `/professional-growth`
+**Sub-skills:** career-planning, resume-linkedin, networking, salary-negotiation, skill-building, leadership-communication
 
 ---
 
